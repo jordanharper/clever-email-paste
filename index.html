@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clever E-mail Paste: Demo</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery.clever_email_paste.js"></script>
+	<script>
+		$(function(){
+			$('form').clever_email_paste({
+				name_selector:'.name',
+				email_selector:'.email',
+				common_parent_selector:'fieldset'
+			});			
+		});
+	</script>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<label>
+				Name
+				<input class="name" name="name[]" size="20">
+			</label>
+			<label>
+				Email
+				<input class="email" name="email[]" size="40">
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<label>
+				Name
+				<input class="name" name="name[]" size="20">
+			</label>
+			<label>
+				Email
+				<input class="email" name="email[]" size="40">
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<label>
+				Name
+				<input class="name" name="name[]" size="20">
+			</label>
+			<label>
+				Email
+				<input class="email" name="email[]" size="40">
+			</label>
+		</fieldset>
+	</form>
+</body>
+</html>
