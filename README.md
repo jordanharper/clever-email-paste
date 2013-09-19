@@ -9,7 +9,7 @@ Copying an e-mail contact from most e-mail clients will copy a string of the fol
 Firstname Surname <email@server.com>
 ```
 
-This simply library/function will enhance a form so that users pasting a string of this format into either the e-mail or name field(s) will result in it being split and filled into the correct form fields.
+This simple library/function will enhance a form so that users pasting a string of this format into either the e-mail or name field(s) will result in it being split and filled into the correct form fields.
 
 **Usage**
 
